@@ -13,10 +13,13 @@
         "skull": "./bin/skull.js"  
     },
     "dependencies": {
-        "github": "*"    
+        "github": "*",
+        "mustache": "*",
+        "mkdirp": "*"
     },
     "devDependencies": {
-        "should": "*"
+        "should": "*",
+        "charlatan": "*"
     },
     "engines": {
         "node": ">=0.8.x"    
