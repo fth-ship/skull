@@ -1,6 +1,24 @@
 {
-  "name": "skull",
-  "version": "0.0.1",
-  "private": false,
-  "dependencies": {}
+    "name": "skull",
+    "version": "0.0.1",
+    "private": false,
+    "description": "Create sketchs of projects and re-use.",
+    "keywords": [
+        "reuse",
+        "templates",
+        "boot"
+    ],
+    "license": "BSD",
+    "bin": {
+        "skull": "./bin/skull.js"  
+    },
+    "dependencies": {
+        "github": "*"    
+    },
+    "devDependencies": {
+        "should": "*"
+    },
+    "engines": {
+        "node": ">=0.8.x"    
+    }
 }
