@@ -43,7 +43,7 @@
             index: 0
         }, function ( res ) {
             if ( res ) {
-                console.log( '%s redy to use!', skull.use ); 
+                console.log( '%s is ready to use!', skull.use ); 
             } else {
                 console.log( '%s not ready to use!', skull.use );
             }
