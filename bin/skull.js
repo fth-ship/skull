@@ -52,7 +52,7 @@
         lib.search.template( skull.search, function ( repos ) {
             for ( var i in repos ) {
                 var repo = repos[ i ],
-                    name = repo['name'].split('-').slice( 1 ).join(''),
+                    name = repo['name'].split('-').slice( 1 ).join('-'),
                     desc = repo['description'],
                     url = repo['url'];
 
