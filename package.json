@@ -17,7 +17,8 @@
         "github": "*",
         "mustache": "*",
         "mkdirp": "*",
-        "git-wrapper": "*"
+        "git-wrapper": "*",
+        "commander": "*"
     },
     "devDependencies": {
         "should": "*",
