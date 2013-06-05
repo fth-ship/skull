@@ -9,13 +9,15 @@
         "boot"
     ],
     "license": "BSD",
+    "url": "https://github.com/fth-ship/skull.git",
     "bin": {
         "skull": "./bin/skull.js"  
     },
     "dependencies": {
         "github": "*",
         "mustache": "*",
-        "mkdirp": "*"
+        "mkdirp": "*",
+        "git-wrapper": "*"
     },
     "devDependencies": {
         "should": "*",
