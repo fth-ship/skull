@@ -58,19 +58,17 @@
 
                 if ( i <= 20 ) {
                     if ( desc ) {
-                        console.log('[ %s ] - %s :: %s',
+                        console.log('[ %s ] - %s :: %s \n',
                             name,
                             desc.length <= 40 ? desc : desc.slice( 0, 40 ) + '...',
                             url
                         ); 
                     } else if ( !desc ) {
-                        console.log('[ %s ] :: %s',
+                        console.log('[ %s ] :: %s \n',
                             name,
                             url
                         );
                     }
-                } if ( repos.length > 1 && i < repos.length - 1 ) {
-                    console.log('\n');    
                 }
             } 
         });      
