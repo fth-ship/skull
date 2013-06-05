@@ -8,6 +8,6 @@
 
     skull -h
 
-## make a pull request for more templates
+## make a pull request to add more templates
 
     https://github.com/node-skull/skull-hello
